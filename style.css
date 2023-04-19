@@ -1,0 +1,122 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  body {
+    background: #6d2cdc;
+  }
+  
+  .main {
+    height: 525px;
+    width: 360px;
+    color: white;
+    background: #291c2e;
+    border-radius: 7px;
+    padding: 15px;
+    margin: 100px auto;
+  }
+  
+  #topContainer {
+    margin-top: 4rem;
+  }
+  
+  .container {
+    margin-top: 1.5rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .inputContainer {
+    background: #50205c;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  #billTotalInput{
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  .inputContainer:hover{
+        background-color: #833796;
+      
+    
+  }
+  
+  .buttonContainer {
+    background: #6d2cdc;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  
+  .splitButton {
+    background: none;
+    border: none;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttonText {
+    color: #2a2e4b !important;
+  }
+  
+  .splitAmount {
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+  
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .total {
+    font-size: 2rem;
+  }
+  
+  #bill-id{
+    color: rgb(255, 255, 255);
+    border: solid rgb(12, 23, 70);
+    background-color: rgb(80, 43, 110);
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+  }
+  #bill-id:hover{
+    background-color: rgb(107, 58, 148);
+  }
